@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7049570-fd3e-4b3b-9ec3-a3748d041b5c" name="默认更改列表" comment="ceshi" />
+    <list default="true" id="a7049570-fd3e-4b3b-9ec3-a3748d041b5c" name="默认更改列表" comment="ceshi">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/util/SL651_2014.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/util/SL651_2014.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +117,7 @@
       <workItem from="1584152481768" duration="34989000" />
       <workItem from="1584237336063" duration="11390000" />
       <workItem from="1584262941453" duration="3612000" />
-      <workItem from="1584267049613" duration="1174000" />
+      <workItem from="1584267049613" duration="1697000" />
     </task>
     <task id="LOCAL-00001" summary="ceshi">
       <created>1584266704341</created>
@@ -123,7 +126,28 @@
       <option name="project" value="LOCAL" />
       <updated>1584266704341</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ceshi">
+      <created>1584268422527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584268422527</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ceshi">
+      <created>1584268507672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584268507672</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ceshi">
+      <created>1584268521860</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584268521860</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,10 +178,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="432" y="163" key="#项目结构/0.0.1680.1010@0.0.1680.1010" timestamp="1584122474728" />
-    <state x="433" y="95" key="CommitChangelistDialog2" timestamp="1584268507001">
+    <state x="433" y="95" key="CommitChangelistDialog2" timestamp="1584268564178">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="433" y="95" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1584268507001" />
+    <state x="433" y="95" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1584268564178" />
     <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1584191786746">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -182,10 +206,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="341" y="147" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1584182191289" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1584268510633">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1584268524455">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584268510633" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584268524455" />
     <state x="538" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1584267050750">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -194,13 +218,13 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="354" y="94" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1584257773063" />
-    <state x="632" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584268354499">
+    <state x="632" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584268603528">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="632" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584268354499" />
-    <state x="487" y="296" key="git4idea.merge.GitPullDialog" timestamp="1584268456835">
+    <state x="632" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584268603528" />
+    <state x="487" y="296" key="git4idea.merge.GitPullDialog" timestamp="1584268591676">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="487" y="296" key="git4idea.merge.GitPullDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584268456835" />
+    <state x="487" y="296" key="git4idea.merge.GitPullDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584268591676" />
   </component>
 </project>

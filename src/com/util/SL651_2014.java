@@ -23,31 +23,31 @@ public class SL651_2014 {
     }
 
     private String getVolt(byte[] messageBytes) {
-       return Integer.toHexString(messageBytes[55]);
+       return Integer.toHexString(messageBytes[55] & 0xFF);
     }
 
     private String getSendTime(byte[] messageBytes) {
-      return  "20" + Integer.toHexString(messageBytes[16])
-                + "-" + Integer.toHexString(messageBytes[17])
-                + "-" + Integer.toHexString(messageBytes[18])
-                + " " + Integer.toHexString(messageBytes[19])
-                + ":" + Integer.toHexString(messageBytes[20])
-                + ":" + Integer.toHexString(messageBytes[21]);
+      return  "20" + Integer.toHexString(messageBytes[16] & 0xFF)
+                + "-" + Integer.toHexString(messageBytes[17] & 0xFF)
+                + "-" + Integer.toHexString(messageBytes[18] & 0xFF)
+                + " " + Integer.toHexString(messageBytes[19] & 0xFF)
+                + ":" + Integer.toHexString(messageBytes[20] & 0xFF)
+                + ":" + Integer.toHexString(messageBytes[21] & 0xFF);
     }
 
     private String getMessageTime(byte[] messageBytes) {
-        return  Integer.toHexString(messageBytes[31])
-                + "-" + Integer.toHexString(messageBytes[32])
-                + "-" + Integer.toHexString(messageBytes[33])
-                + " " + Integer.toHexString(messageBytes[34])
-                + ":" + Integer.toHexString(messageBytes[35])
-                + ":" + Integer.toHexString(messageBytes[36]);
+        return  Integer.toHexString(messageBytes[31] & 0xFF)
+                + "-" + Integer.toHexString(messageBytes[32] & 0xFF)
+                + "-" + Integer.toHexString(messageBytes[33] & 0xFF)
+                + " " + Integer.toHexString(messageBytes[34] & 0xFF)
+                + ":" + Integer.toHexString(messageBytes[35] & 0xFF)
+                + ":" + Integer.toHexString(messageBytes[36] & 0xFF);
     }
 
     private String getYearRainfall(byte[] messageBytes) {
-        String yearRainfall = Integer.toHexString(messageBytes[50])
-                + Integer.toHexString(messageBytes[51])
-                + Integer.toHexString(messageBytes[52]);
+        String yearRainfall = Integer.toHexString(messageBytes[50] & 0xFF)
+                + Integer.toHexString(messageBytes[51] & 0xFF)
+                + Integer.toHexString(messageBytes[52] & 0xFF);
         int pointIndex = messageBytes[49] & 0x07;//与操作，取末三位
         return yearRainfall.substring(0,yearRainfall.length()-1-pointIndex)
                 + "."
@@ -55,10 +55,10 @@ public class SL651_2014 {
     }
 
     private String getWaterLevel(byte[] messageBytes) {
-        String dayRainfall = Integer.toHexString(messageBytes[39])
-                + Integer.toHexString(messageBytes[40])
-                + Integer.toHexString(messageBytes[41])
-                + Integer.toHexString(messageBytes[42]);
+        String dayRainfall = Integer.toHexString(messageBytes[39] & 0xFF)
+                + Integer.toHexString(messageBytes[40] & 0xFF)
+                + Integer.toHexString(messageBytes[41] & 0xFF)
+                + Integer.toHexString(messageBytes[42] & 0xFF);
         int pointIndex = messageBytes[38] & 0x07;//与操作，取末三位
         return dayRainfall.substring(0,dayRainfall.length()-1-pointIndex)
                 + "."
@@ -66,9 +66,9 @@ public class SL651_2014 {
     }
 
     private String getDayRainfall(byte[] messageBytes) {
-        String dayRainfall = Integer.toHexString(messageBytes[45])
-                + Integer.toHexString(messageBytes[46])
-                + Integer.toHexString(messageBytes[47]);
+        String dayRainfall = Integer.toHexString(messageBytes[45] & 0xFF)
+                + Integer.toHexString(messageBytes[46] & 0xFF)
+                + Integer.toHexString(messageBytes[47] & 0xFF);
         int pointIndex = messageBytes[44] & 0x07;//与操作，取末三位
         return dayRainfall.substring(0,dayRainfall.length()-1-pointIndex)
                 + "."
@@ -76,14 +76,14 @@ public class SL651_2014 {
     }
 
     private String getClientAddress(byte[] messageBytes) {
-        return  Integer.toHexString(messageBytes[3])
-                    + Integer.toHexString(messageBytes[4])
-                    + Integer.toHexString(messageBytes[5])
-                    + Integer.toHexString(messageBytes[6])
-                    + Integer.toHexString(messageBytes[7]);
+        return  Integer.toHexString(messageBytes[3] & 0xFF)
+                    + Integer.toHexString(messageBytes[4] & 0xFF)
+                    + Integer.toHexString(messageBytes[5] & 0xFF)
+                    + Integer.toHexString(messageBytes[6] & 0xFF)
+                    + Integer.toHexString(messageBytes[7] & 0xFF);
     }
 
     private String getCenterAddress(byte[] messageBytes) {
-        return  Integer.toHexString(messageBytes[2]);
+        return  Integer.toHexString(messageBytes[2] & 0xFF);
     }
 }
