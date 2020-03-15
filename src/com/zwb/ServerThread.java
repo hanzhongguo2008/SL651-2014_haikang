@@ -42,6 +42,7 @@ public class ServerThread extends Thread {
 
 				if(bytes[10] == 50)
 				{
+
 					i = i + inputStream.read(bytes,25,35);
 					System.out.println("定时报告：" + i);
 
