@@ -6,13 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7049570-fd3e-4b3b-9ec3-a3748d041b5c" name="默认更改列表" comment="ceshi">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/SocketTest_jar/SocketTest.jar" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SocketTest_jar/SocketTest.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/util/SL651_2014.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/util/SL651_2014.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zwb/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zwb/ServerThread.java" afterDir="false" />
-    </list>
+    <list default="true" id="a7049570-fd3e-4b3b-9ec3-a3748d041b5c" name="默认更改列表" comment="ceshi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +114,7 @@
       <workItem from="1584152481768" duration="34989000" />
       <workItem from="1584237336063" duration="11390000" />
       <workItem from="1584262941453" duration="3612000" />
-      <workItem from="1584267049613" duration="927000" />
+      <workItem from="1584267049613" duration="1174000" />
     </task>
     <task id="LOCAL-00001" summary="ceshi">
       <created>1584266704341</created>
@@ -196,9 +190,9 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="354" y="94" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1584257773063" />
-    <state x="632" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584266726516">
+    <state x="632" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584268354499">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="632" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584266726516" />
+    <state x="632" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584268354499" />
   </component>
 </project>
