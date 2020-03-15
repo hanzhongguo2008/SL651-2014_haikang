@@ -62,7 +62,7 @@ public class ServerThread extends Thread {
 				}
 
 				for (int j = 0; j < i; j++) {
-					System.out.print(" " + Integer.toHexString(bytes[j]));
+					System.out.print(" " + Integer.toHexString(bytes[j] & 0xFF ));
 					//System.out.print((char)bytes[j]);
 				}
 				System.out.println();

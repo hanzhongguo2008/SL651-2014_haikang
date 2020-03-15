@@ -6,7 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7049570-fd3e-4b3b-9ec3-a3748d041b5c" name="默认更改列表" comment="" />
+    <list default="true" id="a7049570-fd3e-4b3b-9ec3-a3748d041b5c" name="默认更改列表" comment="ceshi">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/SocketTest_jar/SocketTest.jar" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/SocketTest_jar/SocketTest.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/util/SL651_2014.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/util/SL651_2014.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zwb/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zwb/ServerThread.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +42,7 @@
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sockettest" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="F:/" />
@@ -112,14 +119,31 @@
       <workItem from="1584122083844" duration="2903000" />
       <workItem from="1584152481768" duration="34989000" />
       <workItem from="1584237336063" duration="11390000" />
-      <workItem from="1584262941453" duration="3372000" />
+      <workItem from="1584262941453" duration="3612000" />
+      <workItem from="1584267049613" duration="927000" />
     </task>
+    <task id="LOCAL-00001" summary="ceshi">
+      <created>1584266704341</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584266704341</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ceshi" />
+    <option name="LAST_COMMIT_MESSAGE" value="ceshi" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="432" y="163" key="#Deployment" timestamp="1584266747787">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="163" key="#Deployment/0.0.1680.1010@0.0.1680.1010" timestamp="1584266747787" />
     <state x="558" y="98" key="#Unittests_in_SocketTest" timestamp="1584112191971">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -136,6 +160,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="432" y="163" key="#项目结构/0.0.1680.1010@0.0.1680.1010" timestamp="1584122474728" />
+    <state x="433" y="95" key="CommitChangelistDialog2" timestamp="1584266751982">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="433" y="95" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1584266751982" />
     <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1584191786746">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -160,17 +188,17 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="341" y="147" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1584182191289" />
-    <state x="538" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1584262941448">
+    <state x="538" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1584267050750">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="538" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584262941448" />
+    <state x="538" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584267050750" />
     <state x="354" y="94" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584257773063">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="354" y="94" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1584257773063" />
-    <state x="632" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584266687343">
+    <state x="632" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584266726516">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="632" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584266687343" />
+    <state x="632" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584266726516" />
   </component>
 </project>

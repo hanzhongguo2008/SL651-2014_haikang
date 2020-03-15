@@ -77,10 +77,10 @@ public class SL651_2014 {
 
     private String getClientAddress(byte[] messageBytes) {
         return  Integer.toHexString(messageBytes[3])
-                + "-" + Integer.toHexString(messageBytes[4])
-                + "-" + Integer.toHexString(messageBytes[5])
-                + " " + Integer.toHexString(messageBytes[6])
-                + ":" + Integer.toHexString(messageBytes[7]);
+                    + Integer.toHexString(messageBytes[4])
+                    + Integer.toHexString(messageBytes[5])
+                    + Integer.toHexString(messageBytes[6])
+                    + Integer.toHexString(messageBytes[7]);
     }
 
     private String getCenterAddress(byte[] messageBytes) {
