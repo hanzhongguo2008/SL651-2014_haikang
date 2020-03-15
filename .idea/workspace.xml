@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SocketTest:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7049570-fd3e-4b3b-9ec3-a3748d041b5c" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z4x5aVBXbm5OjeQCkdeOIVzERc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sockettest" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zwb.Server" />
+      <module name="SocketTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zwb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unittests in SocketTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="SocketTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Python tests.Unittests in SocketTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7049570-fd3e-4b3b-9ec3-a3748d041b5c" name="默认更改列表" comment="" />
+      <created>1584111984414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584111984414</updated>
+      <workItem from="1584111993476" duration="391000" />
+      <workItem from="1584122083844" duration="2903000" />
+      <workItem from="1584152481768" duration="34989000" />
+      <workItem from="1584237336063" duration="11390000" />
+      <workItem from="1584262941453" duration="2862000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="558" y="98" key="#Unittests_in_SocketTest" timestamp="1584112191971">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="558" y="98" key="#Unittests_in_SocketTest/0.0.1680.1010@0.0.1680.1010" timestamp="1584112191971" />
+    <state x="645" y="189" key="#com.intellij.ide.util.MemberChooser" timestamp="1584256017355">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="645" y="189" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1584256017355" />
+    <state x="570" y="288" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584122264986">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="570" y="288" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584122264986" />
+    <state x="432" y="163" key="#项目结构" timestamp="1584122474728">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="163" key="#项目结构/0.0.1680.1010@0.0.1680.1010" timestamp="1584122474728" />
+    <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1584191786746">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1584191786746" />
+    <state width="1637" height="264" key="GridCell.Tab.0.bottom" timestamp="1584203198635">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="264" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1584203198635" />
+    <state width="1637" height="264" key="GridCell.Tab.0.center" timestamp="1584203198635">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="264" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1584203198635" />
+    <state width="1637" height="264" key="GridCell.Tab.0.left" timestamp="1584203198635">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="264" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1584203198635" />
+    <state width="1637" height="264" key="GridCell.Tab.0.right" timestamp="1584203198635">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="264" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1584203198635" />
+    <state x="341" y="147" key="SettingsEditor" timestamp="1584182191289">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="341" y="147" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1584182191289" />
+    <state x="538" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1584262941448">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="538" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584262941448" />
+    <state x="354" y="94" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584257773063">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="354" y="94" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1584257773063" />
+  </component>
+</project>
