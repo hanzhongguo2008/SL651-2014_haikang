@@ -1,6 +1,6 @@
 package com.zwb;
 
-import com.bean.WaterVideo;
+import com.entity.WaterVideo;
 import com.util.SL651_2014;
 
 import java.io.BufferedReader;
@@ -40,7 +40,7 @@ public class ServerThread extends Thread {
 			byte[] bytes = new byte[60];
 			while ((i = inputStream.read(bytes,0,25)) != -1) {
 
-				if(bytes[10] == 50)
+				if(bytes[10] != 50)
 				{
 
 					i = i + inputStream.read(bytes,25,35);
@@ -67,61 +67,6 @@ public class ServerThread extends Thread {
 					//System.out.print((char)bytes[j]);
 				}
 				System.out.println();
-
-			}
-			/*int value = 0;
-			String str = "";
-			List<Integer> list = new ArrayList<Integer>();
-			char[] chars=new char[60];
-			while (value != -1) {
-
-				value = bf.read();
-				str = str + (char)value;
-				if((int)(str.charAt(str.length()-1)) == 126 && str.getBytes().length >= 25 && (int)(str.charAt(str.length()-2)) == 126){
-
-					byte[] myByte =  str.getBytes();
-
-					if(myByte[myByte.length - 14] == 47){
-						System.out.println("心跳：" + str);
-					}
-					else{
-
-						System.out.println("我是服务器端，客户端发送过来是：" + str);
-					}
-
-
-					str = "";
-
-				}
-
-			}
-			/*while ((value = bf.read()) != -1) {
-				list.add(value);
-				if(value==126 && list.size() >= 23 && list.get(list.size()-2) == 126){
-					if(list.get(7)==50){
-						System.out.println("我是服务器端，客户端发送过来是：" + list);
-
-						java.lang.Integer.toBinaryString(list.get(37));
-
-						int shuiWei = Integer.parseInt(Integer.toHexString(list.get(34))
-								+ Integer.toHexString(list.get(35)) + Integer.toHexString(list.get(36)));
-
-
-
-						System.out.println("瞬时水位为" + shuiWei/1000.0);
-						System.out.println("发报时间" + Integer.toHexString(list.get(13)) +"-"
-								+ Integer.toHexString(list.get(14)) +"-" + Integer.toHexString(list.get(15))
-								+" " +  Integer.toHexString(list.get(16)) + ":" + Integer.toHexString(list.get(17))
-								+ ":" + Integer.toHexString(list.get(18)));
-					}else {
-						System.out.println("心跳：" + list);
-						System.out.println("发报时间" + Integer.toHexString(list.get(13)) +"-"
-								+ Integer.toHexString(list.get(14)) +"-" + Integer.toHexString(list.get(15))
-								+" " +  Integer.toHexString(list.get(16)) + ":" + Integer.toHexString(list.get(17))
-								+ ":" + Integer.toHexString(list.get(18)));
-					}
-					list.clear();
-				}
 
 			}
 

@@ -1,6 +1,6 @@
 package com.util;
 
-import com.bean.WaterVideo;
+import com.entity.WaterVideo;
 
 public class SL651_2014 {
 
