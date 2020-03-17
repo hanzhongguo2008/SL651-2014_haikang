@@ -1,17 +1,11 @@
 package com.zwb;
 
 import com.entity.WaterVideo;
+import com.service.WaterVideoService;
 import com.util.SL651_2014;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.Socket;
-import java.util.ArrayList;
-import java.util.List;
 //7e7e000010000000c95932002b0224f3200314191856f1f1001000000050f0f020031419183923099999992019000000261900000038122400035e89
 //7e7e000010000000c95932002b02230d200314120000f1f1001000000050f0f02003141200392309999999201900000026190000003812240003db78
 public class ServerThread extends Thread {
@@ -55,6 +49,10 @@ public class ServerThread extends Thread {
 					System.out.println("当前降雨量：" + waterVideo.getDayRainfall());
 					System.out.println("累计降雨量：" + waterVideo.getYearRainfall());
 					System.out.println("电源电压：" + waterVideo.getVolt());
+
+					WaterVideoService waterVideoService = new WaterVideoService();
+					System.out.println("所有：" + waterVideo.toString());
+					System.out.println("waterVideoService.getAllPage()：" + waterVideoService.get());
 
 				}
 				else

@@ -8,7 +8,7 @@ public class Server {
 
 	public static void main(String[] args) throws IOException {
 		@SuppressWarnings("resource")
-		ServerSocket serverSocket = new ServerSocket(8099);
+		ServerSocket serverSocket = new ServerSocket(8888);
 		int count = 0;
 		while (true) {
 			System.out.println("我是服务器端，我正在监听客户端请求...ss");

@@ -1,9 +1,11 @@
 package com.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 
-public class WaterVideo {
+@Entity
+public class WaterVideo   implements Serializable {
 
     public void setId(Integer id) {
         this.id = id;

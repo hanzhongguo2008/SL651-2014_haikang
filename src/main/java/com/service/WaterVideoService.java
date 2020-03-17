@@ -27,7 +27,7 @@ public class WaterVideoService {
     private WaterVideoDao WaterVideoDao;
 
     public Page<WaterVideo> get(){
-        return WaterVideoDao.findAll(PageRequest.of(0,10,Sort.Direction.DESC,"name","waterCreate"));
+        return WaterVideoDao.findAll(PageRequest.of(0,10,Sort.Direction.DESC,"clientAddress","waterCreate"));
     }
     public Page<WaterVideo> getAll(){
         List<Sort.Order> orders = new ArrayList<Sort.Order>();
