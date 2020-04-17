@@ -60,9 +60,9 @@ public class SL651_2014 {
                 + Integer.toHexString(messageBytes[41] & 0xFF)
                 + Integer.toHexString(messageBytes[42] & 0xFF);
         int pointIndex = messageBytes[38] & 0x07;//与操作，取末三位
-        return dayRainfall.substring(0,dayRainfall.length()-1-pointIndex)
+        return dayRainfall.substring(0,dayRainfall.length()-pointIndex)
                 + "."
-                + dayRainfall.substring(dayRainfall.length()-1-pointIndex,dayRainfall.length()-1);
+                + dayRainfall.substring(dayRainfall.length()-pointIndex,dayRainfall.length());
     }
 
     private String getDayRainfall(byte[] messageBytes) {
