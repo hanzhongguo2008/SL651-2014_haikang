@@ -1,6 +1,6 @@
 package com.util;
 
-import com.entity.WaterVideo;
+import com.zwb.entity.WaterVideo;
 
 public class SL651_2014 {
 

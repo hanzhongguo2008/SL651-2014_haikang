@@ -1,7 +1,8 @@
 package com.zwb;
 
-import com.entity.WaterVideo;
-import com.service.WaterVideoService;
+import com.zwb.dao.WaterVideoDao;
+import com.zwb.entity.WaterVideo;
+import com.zwb.service.WaterVideoService;
 import com.util.SL651_2014;
 
 import java.io.*;
@@ -51,8 +52,9 @@ public class ServerThread extends Thread {
 					System.out.println("电源电压：" + waterVideo.getVolt());
 
 					WaterVideoService waterVideoService = new WaterVideoService();
+
 					System.out.println("所有：" + waterVideo.toString());
-					System.out.println("waterVideoService.getAllPage()：" + waterVideoService.get());
+					waterVideoService.save(waterVideo);
 
 				}
 				else
