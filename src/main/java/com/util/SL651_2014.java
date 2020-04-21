@@ -60,7 +60,7 @@ public class SL651_2014 {
                 + Integer.toHexString(messageBytes[42] & 0xFF);
         int pointIndex = messageBytes[38] & 0x07;//与操作，取末三位
         String fuhao = "";
-        if (Integer.toHexString(messageBytes[39] & 0xFF) == "ff"){
+        if (Integer.toHexString(messageBytes[39] & 0xFF).equals("ff")){
             fuhao = "-";
         }
 
