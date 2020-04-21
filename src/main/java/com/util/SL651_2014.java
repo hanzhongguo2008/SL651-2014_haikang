@@ -55,12 +55,16 @@ public class SL651_2014 {
     }
 
     private String getWaterLevel(byte[] messageBytes) {
-        String dayRainfall = Integer.toHexString(messageBytes[39] & 0xFF)
-                + Integer.toHexString(messageBytes[40] & 0xFF)
+        String dayRainfall = Integer.toHexString(messageBytes[40] & 0xFF)
                 + Integer.toHexString(messageBytes[41] & 0xFF)
                 + Integer.toHexString(messageBytes[42] & 0xFF);
         int pointIndex = messageBytes[38] & 0x07;//与操作，取末三位
-        return dayRainfall.substring(0,dayRainfall.length()-pointIndex)
+        String fuhao = "";
+        if (Integer.toHexString(messageBytes[39] & 0xFF) == "ff"){
+            fuhao = "-";
+        }
+
+        return fuhao + dayRainfall.substring(0,dayRainfall.length()-pointIndex)
                 + "."
                 + dayRainfall.substring(dayRainfall.length()-pointIndex,dayRainfall.length());
     }

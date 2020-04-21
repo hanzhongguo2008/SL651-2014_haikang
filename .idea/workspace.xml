@@ -239,7 +239,8 @@
       <workItem from="1584457749162" duration="1191000" />
       <workItem from="1584513123860" duration="12163000" />
       <workItem from="1584811895580" duration="1292000" />
-      <workItem from="1587126623231" duration="1608000" />
+      <workItem from="1587126623231" duration="2276000" />
+      <workItem from="1587447121211" duration="1426000" />
     </task>
     <task id="LOCAL-00001" summary="ceshi">
       <created>1584266704341</created>
@@ -318,11 +319,28 @@
       <option name="project" value="LOCAL" />
       <updated>1587127040637</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="连接数据库">
+      <created>1587128274262</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587128274262</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -383,30 +401,30 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="432" y="163" key="#项目结构/0.0.1680.1010@0.0.1680.1010" timestamp="1584427592478" />
-    <state x="94" y="95" key="CommitChangelistDialog2" timestamp="1587127039449">
+    <state x="94" y="95" key="CommitChangelistDialog2" timestamp="1587128273409">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="94" y="95" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587127039449" />
+    <state x="94" y="95" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587128273409" />
     <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1584811917681">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1584811917681" />
-    <state width="1637" height="264" key="GridCell.Tab.0.bottom" timestamp="1587126822301">
+    <state width="1637" height="264" key="GridCell.Tab.0.bottom" timestamp="1587131871759">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="264" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587126822301" />
-    <state width="1637" height="264" key="GridCell.Tab.0.center" timestamp="1587126822301">
+    <state width="1637" height="264" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587131871759" />
+    <state width="1637" height="264" key="GridCell.Tab.0.center" timestamp="1587131871759">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="264" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587126822301" />
-    <state width="1637" height="264" key="GridCell.Tab.0.left" timestamp="1587126822301">
+    <state width="1637" height="264" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587131871759" />
+    <state width="1637" height="264" key="GridCell.Tab.0.left" timestamp="1587131871758">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="264" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587126822301" />
-    <state width="1637" height="264" key="GridCell.Tab.0.right" timestamp="1587126822301">
+    <state width="1637" height="264" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587131871758" />
+    <state width="1637" height="264" key="GridCell.Tab.0.right" timestamp="1587131871759">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="264" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587126822301" />
+    <state width="1637" height="264" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587131871759" />
     <state width="1637" height="326" key="GridCell.Tab.1.bottom" timestamp="1584549586410">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -447,10 +465,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="997" y="233" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584436787066" />
-    <state x="538" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1584811897383">
+    <state x="538" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1587447124660">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="538" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584811897383" />
+    <state x="538" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587447124660" />
     <state x="538" y="398" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584423945410">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -479,6 +497,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="214" y="113" key="new project wizard/0.0.1680.1010@0.0.1680.1010" timestamp="1584441257340" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1587452767468">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587452767468" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
